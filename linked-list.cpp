@@ -7,6 +7,7 @@ class Node
 public: 
   Node* Link; //Pointer to a node. We use this to link a node to the next node. 
               //Needs to be a pointer because new keyword uses heap memory and returns pointer to the allocated memory
+              //NOTE: Paste code into https://pythontutor.com/cpp.html#mode=display and run visualization for better comprehension
   
   int Data;   //The data that each node contains
 };
